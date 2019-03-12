@@ -1,0 +1,1102 @@
+#mainLogo {
+    width: 490px;
+    margin: 10px auto 0px;
+    display:block;
+}
+
+#difficultyBtn, #initialPlacementsBtn, #playTestFeedback {
+    display:block;
+    margin: 40px auto 0px;
+}
+    
+.nonRelevant {
+    opacity:0.4;
+    font-style:italic;
+}
+
+#difficultyLevel {
+	display:none;
+	width: 401px;
+    margin: 0 auto 30px;
+    font-size: 22px;
+}
+
+#difficultyExplanation {
+    font-size: 20px;
+    width: 310px;
+    margin: 0 auto 30px;
+    text-align: center;
+}
+
+#difficultyExplanation {
+    font-size: 20px;
+    width: 310px;
+    margin: 0 auto 30px;
+    text-align: center;
+}
+
+.slider {
+    width: 62%;
+    margin: 0 auto;
+    display: block;
+}
+
+.difficultyLevelText {
+	display:none;
+}
+
+
+input[type=range] {
+    -webkit-appearance: none;
+    margin: 38px auto 50px;
+    width: 54%;
+}
+
+input[type=range]:focus {
+	outline: none;
+}
+
+input[type=range]::-webkit-slider-runnable-track {
+	width: 100%;
+	height: 8.4px;
+	cursor: pointer;
+	animate: 0.2s;
+	box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+	background: #3071a9;
+	border-radius: 1.3px;
+	border: 0.2px solid #010101;
+}
+
+input[type=range]::-webkit-slider-thumb {
+	box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+	border: 1px solid #000000;
+	height: 50px;
+	width: 25px;
+	margin-top:-20px;
+	border-radius: 3px;
+	background: #ffffff;
+	cursor: pointer;
+	-webkit-appearance: none;
+	/* margin-top: -14px; */
+}
+
+input[type=range]:focus::-webkit-slider-runnable-track {
+	background: #367ebd;
+}
+
+input[type=range]::-moz-range-track {
+	width: 100%;
+	height: 8.4px;
+	cursor: pointer;
+	animate: 0.2s;
+	box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+	background: #3071a9;
+	border-radius: 1.3px;
+	border: 0.2px solid #010101;
+}
+
+input[type=range]::-moz-range-thumb {
+	box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+	border: 1px solid #000000;
+	height: 50px;
+	width: 25px;
+	margin-top:-20px;
+	border-radius: 3px;
+	background: #ffffff;
+	cursor: pointer;
+}
+
+input[type=range]::-ms-track {
+	width: 100%;
+	height: 8.4px;
+	cursor: pointer;
+	animate: 0.2s;
+	background: transparent;
+	border-color: transparent;
+	border-width: 16px 0;
+	color: transparent;
+}
+
+input[type=range]::-ms-fill-lower {
+	background: #2a6495;
+	border: 0.2px solid #010101;
+	border-radius: 2.6px;
+	box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+}
+
+input[type=range]::-ms-fill-upper {
+	background: #3071a9;
+	border: 0.2px solid #010101;
+	border-radius: 2.6px;
+	box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+}
+
+input[type=range]::-ms-thumb {
+	box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+	border: 1px solid #000000;
+	height: 50px;
+	width: 25px;
+	margin-top:-20px;
+	border-radius: 3px;
+	background: #ffffff;
+	cursor: pointer;
+}
+
+input[type=range]:focus::-ms-fill-lower {
+	background: #3071a9;
+}
+
+input[type=range]:focus::-ms-fill-upper {
+	background: #367ebd;
+}
+
+#levelContainer {
+    width: 270px;
+    text-align: left;
+    margin: 0 auto 30px;
+    box-shadow: #999 1px 1px 5px;
+    border-radius: 21px;
+    padding: 10px 30px 0px;
+    display: block;
+    border: 2px solid #676767;
+    background-color: rgba(0, 255, 0, 0.6);
+}
+
+#levelContainer h3 {
+    text-align: center;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    font-size: 29px;
+}
+
+#levelContainer p {
+    font-size: 22px!important;
+    margin: 10px 0 20px!important;
+}
+
+#levelContainer ul {
+	padding: 0px 10px 15px 20px;
+    margin: 15px 0px 0px 0px;
+}
+
+#levelContainer ul li {
+	margin-bottom:9px;
+	list-style:none;
+}
+
+#automaSetup > p {
+	text-align: center;
+}
+
+#initialPlacementLayer p {
+    text-align: left!important;
+}
+
+.mainActionIcon {
+    height: 43px;
+    margin: 10px 5px;
+}
+
+.mainActionIcon, .expandIcon {
+    transition: opacity 0.5s;
+} 
+
+.inactiveIcon {
+    opacity: .2;
+}
+
+.mainAction {
+    margin-top: 90px;
+    margin-left: 10px;
+    width: 330px;
+}
+
+/* .mainActionInstructions {
+    padding-top: 10px;
+} */
+
+.mainActionInstructions p, .mainActionInstructions ul, .mainActionInstructions li {
+    font-size: 18px!important;
+    text-align: left!important;
+}
+
+.mainActionInstructions img {
+    height: 24px;
+    float: left;
+    margin: 0px 7px;
+}
+
+/* .mainActionInstructions ul li {
+    list-style:none;
+} */
+
+.mainActionButtons {
+    width: 177px;
+    margin: 0 auto;
+}
+
+.mainActionButtons {
+    width: 177px;
+    margin: 0 auto;
+}
+
+.mainActionButtons .btn {
+	margin: 10px 0px;
+}
+
+.hex {
+    float: left;
+    position: relative;
+    margin: 17px;
+    cursor: hand;
+    cursor: pointer;
+    width: 118px;
+    height: 95px;
+    background-size: cover;
+}
+
+#hexDeciderBox > p {
+	text-align: center;
+}
+
+#hexDeciderLayer .hexDeciderContent .hex p {
+    position: absolute;
+    top: -33%;
+    font-size: 50px;
+    color: gold;
+    text-shadow: 2px 2px #777;
+    text-align: center;
+    width: 100%;
+}
+
+.hex.green {
+	background-image:url('../img/gameHex.png');
+}
+
+.hex.inactive {
+	display:none;
+}
+
+#hexDeciderLayer .hexDeciderContent .hex.yellow p {
+	color:red;
+	font-weight: bold;
+}
+
+#hexDeciderLayer .buttons {
+	height: 50px;
+}
+
+#hexDeciderLayer .buttons .btn {
+	float:left;
+}
+
+.mainActionButtons[btns="1"] {
+    width: 221px;
+    height: 10px;
+    margin: 0 auto;
+}
+
+.mainActionButtons[btns="2"] {
+    width: 317px;
+    margin: 0 auto;
+}
+
+.mainActionButtons[btns="3"] {
+    width: 357px;
+    margin: 0 auto;
+}
+
+.mainActionButtons[btns="3"] .btn:last-child {
+    margin: 0 auto;
+    float:none;
+    clear: both;
+}
+
+.mainActionButtons .btn {
+    margin: 10px 10px;
+    width: 77px;
+    float: left;
+    font-size: 19px;
+}
+
+.mainActionButtons .btn.wideBtn {
+    width: 147px;
+    padding: 9px 9px;
+    margin: 10px 5px;
+}
+
+.mainActionButtons .btn.extraWideBtn {
+    width: 189px;
+    padding: 14px 9px;
+    margin: 10px 5px;
+}
+
+.mainActionButtons .singleTradeBtn {
+    margin: 10px auto;
+    float: none;
+}
+
+#helpTextContainer .menuIcon {
+    height: 30px;
+    margin: 0px 6px -7px 10px;
+}
+
+.gameActionInfo {
+    width: 200px!important;
+}
+
+#cardArea, {
+    width: 400px!important;
+    margin-left: 19px;
+}
+
+.supportCard {
+    position: relative;
+    z-index: -10;
+    padding-top: 10px;
+    padding-bottom: 11px;
+    display: none;
+    box-shadow: 0px 0px 6px #999;
+    width: 330px!important;
+}
+
+.expandBackground {
+    position: absolute;
+    top: 8px;
+    left: 74px;
+    z-index: -1;
+    width: 195px;
+}
+
+.expandInfo {
+    float: left;
+    width: 50px;
+}
+
+.expandLeftInfo {
+    margin-top: 31px;
+    margin-left: 92px;
+}
+
+.expandRightInfo {
+    margin-top: 4px;
+    margin-left: 39px;
+}
+
+.expandInfo img {
+    width: 39px;
+    float: left;
+    margin-bottom: 8px;
+}
+
+.expandInfo .mapModuleImage {
+    width: 70px;
+}
+
+.expandInfo .neutralMeepleImage {
+    width: 36px;
+    margin-left: 19px;
+    margin-top: 6px;
+}
+
+.shippingMerchantIcon {
+    margin: 0px auto 5px;
+    padding: 0px 0px 0px 0px;
+    display: block;
+    width: 80px;
+}
+
+#cardArea .flip-card .flip-card-inner .cardPic .cardNum, .mainAction .supportCard .cardNum {
+    font-size: 13px!important;
+    font-weight: bold;
+    position: absolute;
+}
+
+#cardArea .flip-card .flip-card-inner .cardPic .cardNum {
+    text-align: right;
+    right: 4px;
+    bottom: -12px;
+}
+
+.mainAction .supportCard .cardNum {
+    right: 6px;
+    bottom: -10px;
+}
+
+.confirmationBox.cocBox.endOfRound, .confirmationBox.cocBox.scoringTile {
+    top:5%;
+    margin-left: -310px;
+    text-align: left;
+    width: 620px;
+    font-size: 20px;
+}
+
+
+.confirmationBox.cocBox.endOfRound h3, .confirmationBox.cocBox.scoringTile h3 {
+    text-align: center;
+    font-size: 30px;
+}
+
+.confirmationBox.cocBox.endOfRound li {
+    margin-bottom: 15px;
+}
+.confirmationBox.cocBox.endOfRound ul {
+    padding: 0 0 0 22px;
+}
+
+.confirmationBox.cocBox.endOfRound .buttons, .confirmationBox.cocBox.scoringTile .buttons {
+    width: 183px;
+}
+
+.endOfRoundCheckboxContainer {
+    width: 28px;
+    height: 28px;
+    margin: 0px 15px 0px 0px;
+    position: relative;
+    float: left;
+}
+
+
+.endOfRoundCheckbox {
+	display:none;
+}
+
+.endOfRoundCheckboxContainer label {
+    cursor: pointer;
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    top: 0;
+    left: 0;
+    background: #eee;
+    border:1px solid #ddd;
+}
+
+/**
+ * Display the tick inside the checkbox
+ */
+ .endOfRoundCheckboxContainer label:after {
+	opacity: 0.1;
+    content: '';
+    position: absolute;
+    width: 12px;
+    height: 5px;
+    background: transparent;
+    top: 6px;
+    left: 5px;
+    border: 3px solid #333;
+    border-top: none; 
+    border-right: none;
+    transform: rotate(-45deg);
+}
+
+/**
+ * Create the hover event of the tick
+ */
+ .endOfRoundCheckboxContainer label:hover::after {
+    opacity: 0.2;
+}
+
+/**
+ * Create the checkbox state for the tick
+ */
+.endOfRoundCheckboxContainer input[type=checkbox]:checked + label:after {
+    opacity: 1;
+}
+
+#endOfGameScoringHeading, #playtestFeedbackHeading {
+    text-align: center;
+    font-size: 32px;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+}
+
+#endOfGameScoring p, #playtestFeedback p {
+    text-align: left!important;
+}
+
+#startingAmount {
+    font-weight:bold;
+}
+
+
+@media screen and (min-width: 600px) and (max-width: 949px) {
+
+    h2 {
+        font-size: 4.5vw;
+        margin-bottom: 1vw;
+    }
+
+    #levelContainer h3 {
+        font-size: 4vw;
+    }
+
+    .gameActionInfo {
+        width: 86vw!important;
+    }
+
+    #mainLogo {
+        width: 63vw;
+        margin: 2vw auto 0vw;
+    }
+
+    .func-showLayer-initialPlacement, .func-showLayer-game:not(#newGame):not(#continue) {
+        float: none!important;
+        margin: 4vw auto 0vw;
+    }
+
+    .hex {
+        margin: 2vw;
+        width: 17vw;
+        height: 13.8vw;
+    }
+
+    .hex p {
+        font-size: 7vw!important;
+        text-shadow: .2vw .2vw #777;
+    }
+
+    .addRemovedCard {
+        top: -1vw;
+        right: -1vw;
+        width: 7vw;
+    }
+
+    .individualRemovedCard {
+        margin: 3vw 3vw 2vw 1vw;
+    }
+
+    .flip-card {
+        height: 10.8vw!important;
+        margin: 0 auto;
+    }
+
+    .mainAction {
+        width: 84vw;
+        margin: 0vw auto;
+    }
+
+    .mainActionIcon {
+        height: 6vw;
+        margin: 2vw 1.2vw;
+    }
+
+    .mainActionButtons {
+        margin: 0 auto;
+    }
+
+    .mainActionButtons[btns="1"] {
+        width: 39vw;
+    }
+
+    .mainActionButtons[btns="2"] {
+        width: 52vw;
+    }
+
+    .mainActionButtons[btns="3"] {
+        width: 65vw;
+    }
+
+    .mainActionInstructions {
+        width: 84vw;
+        margin: 0 auto;
+    }
+
+    .mainActionButtons .btn {
+        margin: 2vw 2vw;
+        padding: 2vw;
+        width: 18vw;
+        float: left;
+        font-size: 3vw;
+    }
+
+    .mainActionButtons .btn.wideBtn {
+        width: 24vw;
+        padding: 2vw;
+        margin: 2vw 2vw 2.8vw;
+    }
+
+    .mainActionButtons .btn.extraWideBtn {
+        width: 33vw;
+        padding: 2vw;
+        margin: 2vw 1vw;
+    }
+
+    .mainActionInstructions p, .mainActionInstructions ul, .mainActionInstructions li {
+        font-size: 3.2vw!important;
+        line-height: 4vw!important;
+        text-align: left!important;
+    }
+
+    .mainActionInstructions ul, .mainActionInstructions ol {
+        padding-left: 4vw!important;
+    }
+
+    /* .mainActionInstructions ul {
+        padding:0vw 0vw 0vw 4vw;
+    } */
+
+    .supportCard {
+        padding-top: 2vw;
+        padding-bottom: 2vw;
+        width: 51.5vw!important;
+        margin: 3vw auto 0vw;
+    }
+
+    #difficultyBtn, #initialPlacementsBtn, #playTestFeedback {
+        display: block;
+        margin: 5vw auto 0vw;
+        float: none;
+    }
+
+    #levelContainer {
+        width: 42vw;
+        margin: 0 auto 3vw;
+        border-radius: 2vw;
+        padding: 2vw 3vw;
+        border: .2vw solid #676767;
+    }
+
+    #levelContainer p {
+        font-size: 3.1vw!important;
+        margin: 1vw 0 2vw!important;
+    }
+
+    .expandBackground {
+        top: 1vw;
+        left: 10vw;
+        width: 32vw;
+    }
+
+    .expandLeftInfo {
+        margin-top: 3vw;
+        margin-left: 13vw;
+    }
+
+    .expandRightInfo {
+        margin-top: .5vw;
+        margin-left: 2vw;
+    }
+
+    .expandInfo {
+        width: 12vw;
+    }
+
+    .expandInfo .mapModuleImage {
+        width: 11vw;
+    }
+
+    .expandInfo .neutralMeepleImage {
+        width: 7vw;
+        margin-left: 4vw;
+        margin-top: 2vw;
+    }
+
+    .expandInfo img {
+        width: 6.7vw;
+        float: left;
+        margin-bottom: 0.8vw;
+    }
+
+    #cardArea .flip-card .flip-card-inner .cardPic .cardNum, .mainAction .supportCard .cardNum {
+        font-size: 2.5vw!important;
+    }
+
+    #cardArea .flip-card .flip-card-inner .cardPic .cardNum {
+        right: 1vw!important;
+        bottom: -2vw!important;
+    }
+
+    .confirmationBox.cocBox.endOfRound, .confirmationBox.cocBox.scoringTile {
+        top: 5%;
+        margin-left: -45vw;
+        width: 90vw;
+        font-size: 3.5vw;
+        line-height: 4.5vw;
+    }
+
+    .confirmationBox.cocBox.endOfRound h3, .confirmationBox.cocBox.scoringTile h3 {
+        text-align: center;
+        font-size: 5vw;
+    }
+
+    .confirmationBox.cocBox.endOfRound .buttons, .confirmationBox.cocBox.scoringTile .buttons {
+        width: 27vw;
+    }
+
+    .endOfRoundCheckboxContainer {
+        width: 4vw;
+        height: 4vw;
+        margin: 0vw 2vw 0vw 0vw;
+	}
+
+	.endOfRoundCheckboxContainer label {
+        width: 4vw;
+        height: 4vw;
+        border: .2vw solid #adadad;
+	}
+
+	.endOfRoundCheckboxContainer label:after {
+        width: 2.2vw;
+        height: 0.9vw;
+        top: 1vw;
+        left: .7vw;
+        border: .55vw solid #333;
+        border-top: none;
+        border-right: none;
+    }
+    
+    #endOfGameScoringHeading {
+        font-size: 5vw;
+        margin: 4vw 0 0 0;
+    }
+
+    #playtestFeedbackHeading {
+        font-size: 5vw;
+        margin: 2vw 0 0 0;
+    }
+
+    .shippingMerchantIcon {
+        margin: 0vw auto 1vw;
+        padding: 0vw 0vw 0vw 0vw;
+        width: 13vw;
+    }
+
+    .confirmationBox.cocBox.endOfRound ul {
+        padding: 0 0 0 3.5vw;
+    }
+
+    .confirmationBox.cocBox.endOfRound li {
+        margin-bottom: 1.7vw;
+    }
+
+}
+
+@media screen and (max-width: 599px) {
+
+    *:not(p) {
+        user-select: none;
+        -webkit-user-select: none;
+        -ms-user-select: none;
+        -webkit-touch-callout: none;
+        -o-user-select: none;
+        -moz-user-select: none;
+        -webkit-tap-highlight-color: transparent;
+    }
+
+    *:focus {
+        outline: none !important;
+    }
+
+    input[type=range] {
+		width: 72%;
+	}
+
+    h2 {
+        font-size: 6.2vw;
+        margin-bottom: 1vw;
+    }
+
+    #difficultyLevelLayer h2, #initialPlacementLayer h2 {
+        margin-top: 5vw;
+    }
+
+    #mainLogo {
+        width: 71vw;
+        margin: 3.7vw 0vw 0vw 2vw;
+    }
+
+    #levelContainer {
+        width: 52vw;
+        margin: 0 auto 6vw;
+        border-radius: 5vw;
+        padding: 2vw 8vw 0vw;
+        border: .3vw solid #676767;
+    }
+
+    #gameLayer {
+        margin: 3vw auto 0!important;
+    }
+
+    .gameActionInfo {
+        width: 82vw!important;
+        margin: 0 auto;
+    }
+
+    #levelContainer h3 {
+        font-size: 6vw;
+    }
+
+    #levelContainer p {
+        font-size: 5vw!important;
+        margin: 2vw 0 6vw!important;
+    }
+
+    #initialPlacementLayer {
+        width: 84vw!important;
+    }
+
+    #cardArea .flip-card .flip-card-inner .cardPic .cardNum, .mainAction .supportCard .cardNum {
+        font-size: 4vw!important;
+        font-weight: bold;
+        position: absolute;
+    }
+
+    #cardArea .flip-card .flip-card-inner .cardPic .cardNum {
+        text-align: right;
+        right: 1vw;
+        bottom: -3vw;
+    }
+
+    .func-showLayer-initialPlacement, .func-showLayer-game:not(#newGame):not(#continue) {
+        float:none!important;
+    }
+
+	.individualRemovedCard img:first-child {
+        width: 27vw;
+        height: 38vw;
+        box-shadow: 0.1vw 0.1vw 1vw #AAA;
+    }
+
+    .individualRemovedCard {
+        margin: 1vw 4vw 4vw 0vw;
+    }
+
+    .individualRemovedCard:nth-child(3) {
+        margin-right:0vw;
+    }
+
+    .addRemovedCard {
+        top: -2vw;
+        right: -2vw;
+        width: 10vw;
+    }
+
+    #hexDeciderLayer .buttons {
+        height: 12vw;
+        margin-top: 9vw;
+    }
+
+    #hexDeciderLayer .buttons[btns="2"] {
+        width: 74.2vw;
+    }
+
+    .hexDeciderContent {
+        margin: 0 auto;
+        width: 78vw;
+    }
+
+    .hex {
+        margin: 2vw!important;
+        width: 21.8vw!important;
+        height: 17.5vw!important;
+    }
+
+    .hex p {
+        font-size: 8vw!important;
+    }
+
+    #hexDeciderLayer .hexDeciderContent .hex p {
+        top: -23%;
+    }
+
+    .flip-card {
+        height: 20.3vw!important;
+    }
+
+    .mainAction {
+        margin-top: 1vw;
+        margin-left: 0vw;
+        width: 89vw;
+    }
+
+    .mainActionButtons[btns="1"] {
+        width: 54vw;
+        margin: 0 auto;
+    }
+
+    .mainActionButtons[btns="2"] {
+        width: 80vw;
+        margin: 0 auto;
+    }
+
+    .mainActionButtons[btns="3"] {
+        width: 90vw;
+        margin: 0 auto;
+    }
+
+    .mainActionButtons .btn {
+        margin: 3vw 4vw;
+        width: 29vw;
+        float: left;
+        font-size: 5vw;
+    }
+
+    .mainActionButtons .btn.wideBtn {
+        width: 40vw;
+        padding: 3vw 1vw;
+        margin: 2vw 1.5vw 4vw;
+    }
+
+    .mainActionButtons .btn.extraWideBtn {
+        width: 47vw;
+        padding: 3.5vw 2vw;
+        margin: 2vw 1vw;
+    }
+
+    .mainActionInstructions ul, .mainActionInstructions ol {
+        padding-left: 7vw!important;
+    }
+
+    .mainActionInstructions p, .mainActionInstructions ul, .mainActionInstructions li {
+        font-size: 5vw!important;
+    }
+
+    .mainActionIcon {
+        height: 11vw;
+        margin: 4vw 2vw;
+    }
+
+    .supportCard {
+        padding-top: 1vw;
+        padding-bottom: 2vw;
+        width: 89vw!important;
+        margin-top: 4vw;
+    }
+
+    .expandInfo {
+        float: left;
+        width: 20vw;
+    }
+
+    .expandLeftInfo {
+        margin-top: 8vw;
+        margin-left: 24vw;
+    }
+
+    .expandRightInfo {
+        margin-top: 4vw;
+        margin-left: 3vw;
+    }
+
+    .expandBackground {
+        top: 2vw;
+        left: 18vw;
+        width: 54vw;
+    }
+
+    .expandInfo img {
+        width: 11vw;
+        float: left;
+        margin-bottom: 1.5vw;
+    }
+
+    .expandInfo .mapModuleImage {
+        width: 19vw;
+    }
+
+    .expandInfo .neutralMeepleImage {
+        width: 11vw;
+        margin-left: 6vw;
+        margin-top: 2vw;
+    }
+
+    input[type=range]::-webkit-slider-thumb {
+        height: 12vw;
+        width: 6.5vw;
+        margin-top:-5vw;
+        border-radius: .5vw;
+    }
+    
+    
+    input[type=range]::-moz-range-thumb {
+        height: 12vw;
+        width: 6.5vw;
+        margin-top:-5vw;
+        border-radius: .5vw;
+    }
+    
+    
+    input[type=range]::-ms-thumb {
+        height: 12vw;
+        width: 6.5vw;
+        margin-top:-5vw;
+        border-radius: .5vw;
+    }
+
+    .confirmationBox.cocBox.endOfRound, .confirmationBox.cocBox.scoringTile {
+        margin-left: -45vw;
+        width: 90vw;
+        font-size: 5vw;
+        padding: 2vw 4vw;
+    }
+
+    .confirmationBox p {
+        margin-bottom: 5vw;
+    }
+
+    .confirmationBox.cocBox.endOfRound h3, .confirmationBox.cocBox.scoringTile h3 {
+        text-align: center;
+        font-size: 7vw;
+        margin: 2vw 0vw 0vw 0vw;
+        padding: 0vw 0vw 0vw 0vw;
+    }
+
+    
+    .endOfRoundCheckboxContainer {
+        width: 4vw;
+        height: 4vw;
+        margin: 0vw 2vw 0vw 0vw;
+	}
+
+	.endOfRoundCheckboxContainer label {
+        width: 4vw;
+        height: 4vw;
+        border: .2vw solid #adadad;
+	}
+
+	.endOfRoundCheckboxContainer label:after {
+        width: 2.2vw;
+        height: 0.9vw;
+        top: 1vw;
+        left: .7vw;
+        border: .55vw solid #333;
+        border-top: none;
+        border-right: none;
+    }
+
+    .confirmationBox.cocBox.endOfRound .buttons, .confirmationBox.cocBox.scoringTile .buttons {
+        width: 42vw;
+    }
+
+    .endOfRound .buttons #confirmEndOfRound.btn, .scoringTile .buttons #confirmScoringTiles.btn {
+        margin: 2vw 2.7vw 4vw;
+        padding: 3.5vw 2vw;
+        font-size: 5vw;
+        width: 31vw;
+    }
+
+    #difficultyBtn, #initialPlacementsBtn, #playTestFeedback {
+        float:none;
+    }
+
+    #endOfGameScoringHeading, #playtestFeedbackHeading {
+        text-align: center;
+        font-size: 7.5vw;
+        margin: 0 0 0 0;
+        padding: 0 0 0 0;
+    }
+
+    .confirmationBox.cocBox.endOfRound .noList li {
+        margin-bottom: 1.5vw;
+    }
+
+    .confirmationBox.cocBox.endOfRound ul {
+        padding: 2vw 0 0.5vw 5.5vw;
+    }
+
+    .confirmationBox.cocBox.endOfRound li {
+        margin-bottom: 2.7vw;
+    }
+
+}

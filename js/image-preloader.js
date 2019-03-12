@@ -1,0 +1,51 @@
+function preload(arrayOfImages) {
+    $(arrayOfImages).each(function(){
+        $('<img/>')[0].src = this;
+    });
+}
+
+preload([
+    'img/helpImages/cardSummary.png',
+	'img/helpImages/extraIncome.png',
+	'img/helpImages/settlementExample.jpg',
+	'img/helpImages/exportRefillBoard.png',
+	'img/helpImages/expandSupportCard.png',
+	'img/helpImages/expandSupportCardExpansionGoal.png',
+	'img/icons/expand/neighborhoodBonus.png',
+	'img/icons/expand/maxSettlements.png',
+	'img/icons/expand/minCosts.png',
+	'img/icons/expand/port.png',
+	'img/icons/expand/backgroundHex.png',
+	'img/icons/mainActions/contract.png',
+	'img/icons/mainActions/expansion.png',
+	'img/icons/mainActions/trade.png',
+	'img/icons/mainActions/noAction.png',
+	'img/icons/mainActions/shippingMerchant.png',
+	'img/icons/mainActions/technologyUpgrade.png',
+	'img/icons/mapModules/AB.png',
+	'img/icons/mapModules/AC.png',
+	'img/icons/mapModules/AD.png',
+	'img/icons/mapModules/ABCD.png',
+	'img/icons/mapModules/BC.png',
+	'img/icons/mapModules/BD.png',
+	'img/icons/mapModules/CD.png',
+	'img/icons/neutralMeeple/+1.png',
+	'img/icons/neutralMeeple/+2.png',
+	'img/icons/neutralMeeple/+3.png',
+	'img/icons/neutralMeeple/+4.png',
+	'img/icons/neutralMeeple/+5.png',
+	'img/icons/neutralMeeple/+6.png',
+	'img/icons/neutralMeeple/+7.png',
+	'img/icons/round/1.png',
+	'img/icons/round/2.png',
+	'img/icons/round/3.png',
+	'img/icons/round/4.png',
+	'img/icons/round/5.png',
+	'img/icons/support/merchant.png',
+	'img/icons/support/shipping.png',
+	'img/closeHelp.png',
+	'img/gameHex.png',
+	'img/menuClose.png',
+	'img/menuIcon.png',
+	'img/question.png'
+]);
