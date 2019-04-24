@@ -345,7 +345,7 @@ input[type=range]:focus::-ms-fill-upper {
     width: 200px!important;
 }
 
-#cardArea, {
+#cardArea {
     width: 400px!important;
     margin-left: 19px;
 }
@@ -423,7 +423,7 @@ input[type=range]:focus::-ms-fill-upper {
     bottom: -10px;
 }
 
-.confirmationBox.cocBox.endOfRound, .confirmationBox.cocBox.scoringTile {
+.confirmationBox.cocBox.endOfRound, .confirmationBox.cocBox.scoringTile, .confirmationBox.cocBox.passReminder {
     top:5%;
     margin-left: -310px;
     text-align: left;
@@ -431,8 +431,16 @@ input[type=range]:focus::-ms-fill-upper {
     font-size: 20px;
 }
 
+.confirmationBox.cocBox.passReminder ul {
+    padding-left: 17px;
+    margin-bottom: 24px;
+}
 
-.confirmationBox.cocBox.endOfRound h3, .confirmationBox.cocBox.scoringTile h3 {
+.confirmationBox.cocBox.passReminder li {
+    margin-bottom: 24px;
+}
+
+.confirmationBox.cocBox.endOfRound h3, .confirmationBox.cocBox.scoringTile h3, .confirmationBox.cocBox.passReminder h3 {
     text-align: center;
     font-size: 30px;
 }
@@ -444,7 +452,7 @@ input[type=range]:focus::-ms-fill-upper {
     padding: 0 0 0 22px;
 }
 
-.confirmationBox.cocBox.endOfRound .buttons, .confirmationBox.cocBox.scoringTile .buttons {
+.confirmationBox.cocBox.endOfRound .buttons, .confirmationBox.cocBox.scoringTile .buttons,.confirmationBox.cocBox.passReminder .buttons {
     width: 183px;
 }
 
@@ -517,6 +525,17 @@ input[type=range]:focus::-ms-fill-upper {
 
 #startingAmount {
     font-weight:bold;
+}
+
+#endOfGameScoring #automaPassRate {
+    text-align: center!important;
+    font-weight: bold;
+    border: 2px solid #9b9b9b;
+    background-color: #e4e4e4;
+    width: 130px;
+    margin: 0 auto;
+    padding: 10px 7px;
+    font-size: 29px;
 }
 
 
@@ -707,7 +726,7 @@ input[type=range]:focus::-ms-fill-upper {
         bottom: -2vw!important;
     }
 
-    .confirmationBox.cocBox.endOfRound, .confirmationBox.cocBox.scoringTile {
+    .confirmationBox.cocBox.endOfRound, .confirmationBox.cocBox.scoringTile, .confirmationBox.cocBox.passReminder {
         top: 5%;
         margin-left: -45vw;
         width: 90vw;
@@ -715,12 +734,12 @@ input[type=range]:focus::-ms-fill-upper {
         line-height: 4.5vw;
     }
 
-    .confirmationBox.cocBox.endOfRound h3, .confirmationBox.cocBox.scoringTile h3 {
+    .confirmationBox.cocBox.endOfRound h3, .confirmationBox.cocBox.scoringTile h3, .confirmationBox.cocBox.passReminder h3 {
         text-align: center;
         font-size: 5vw;
     }
 
-    .confirmationBox.cocBox.endOfRound .buttons, .confirmationBox.cocBox.scoringTile .buttons {
+    .confirmationBox.cocBox.endOfRound .buttons, .confirmationBox.cocBox.scoringTile .buttons, .confirmationBox.cocBox.passReminder .buttons {
         width: 27vw;
     }
 
@@ -770,11 +789,18 @@ input[type=range]:focus::-ms-fill-upper {
         margin-bottom: 1.7vw;
     }
 
+    #endOfGameScoring #automaPassRate {
+        border: .4vw solid #9b9b9b;
+        width: 18vw;
+        padding: 2vw 2vw;
+        font-size: 4vw;
+    }
+
 }
 
 @media screen and (max-width: 599px) {
-
-    *:not(p) {
+    
+    * {
         user-select: none;
         -webkit-user-select: none;
         -ms-user-select: none;
@@ -783,6 +809,16 @@ input[type=range]:focus::-ms-fill-upper {
         -moz-user-select: none;
         -webkit-tap-highlight-color: transparent;
     }
+
+    #automaPassRate {
+        user-select: text;
+        -webkit-user-select: text;
+        -ms-user-select: text;
+        -webkit-touch-callout: text;
+        -o-user-select: text;
+        -moz-user-select: text;
+        -webkit-tap-highlight-color: #CCC;
+    } 
 
     *:focus {
         outline: none !important;
@@ -1024,7 +1060,7 @@ input[type=range]:focus::-ms-fill-upper {
         border-radius: .5vw;
     }
 
-    .confirmationBox.cocBox.endOfRound, .confirmationBox.cocBox.scoringTile {
+    .confirmationBox.cocBox.endOfRound, .confirmationBox.cocBox.scoringTile, .confirmationBox.cocBox.passReminder {
         margin-left: -45vw;
         width: 90vw;
         font-size: 5vw;
@@ -1035,7 +1071,7 @@ input[type=range]:focus::-ms-fill-upper {
         margin-bottom: 5vw;
     }
 
-    .confirmationBox.cocBox.endOfRound h3, .confirmationBox.cocBox.scoringTile h3 {
+    .confirmationBox.cocBox.endOfRound h3, .confirmationBox.cocBox.scoringTile h3, .confirmationBox.cocBox.passReminder h3 {
         text-align: center;
         font-size: 7vw;
         margin: 2vw 0vw 0vw 0vw;
@@ -1065,11 +1101,11 @@ input[type=range]:focus::-ms-fill-upper {
         border-right: none;
     }
 
-    .confirmationBox.cocBox.endOfRound .buttons, .confirmationBox.cocBox.scoringTile .buttons {
+    .confirmationBox.cocBox.endOfRound .buttons, .confirmationBox.cocBox.scoringTile .buttons, .confirmationBox.cocBox.passReminder .buttons {
         width: 42vw;
     }
 
-    .endOfRound .buttons #confirmEndOfRound.btn, .scoringTile .buttons #confirmScoringTiles.btn {
+    .endOfRound .buttons #confirmEndOfRound.btn, .scoringTile .buttons #confirmScoringTiles.btn, .passReminder .buttons #confirmPassReminder.btn {
         margin: 2vw 2.7vw 4vw;
         padding: 3.5vw 2vw;
         font-size: 5vw;
@@ -1097,6 +1133,14 @@ input[type=range]:focus::-ms-fill-upper {
 
     .confirmationBox.cocBox.endOfRound li {
         margin-bottom: 2.7vw;
+    }
+
+    #endOfGameScoring #automaPassRate {
+        border: .4vw solid #9b9b9b;
+        width: 34vw;
+        margin: 0 auto 8vw;
+        padding: 2vw 2vw;
+        font-size: 7vw;
     }
 
 }
