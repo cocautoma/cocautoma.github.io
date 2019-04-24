@@ -431,7 +431,8 @@ a {
 
 #cardArea {
     padding: 7px 20px 20px 20px;
-    width: 340px;
+    margin-left: 19px;
+    width: 400px;
     box-sizing: border-box;
     float: left;
     -webkit-transform: translate3d(0,0,0);
