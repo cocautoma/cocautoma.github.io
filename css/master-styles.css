@@ -947,7 +947,7 @@ a {
 }
 
 .buttons[btns="3"] {
-    width: 70.6vw!important;
+    width: 78.6vw!important;
 }
 
 .buttons[btns="4"] {
@@ -1179,7 +1179,7 @@ a {
     }
 
     #gameLayer .buttons[btns="3"], #gameLayer .buttons[btns="4"] {
-        height: 24vw;
+        height: 27vw;
     }
 
 	#gameLayer .buttons[btns="2"], #gameLayer .buttons[btns="3"], #gameLayer .buttons[btns="4"] {
