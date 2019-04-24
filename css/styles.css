@@ -345,11 +345,6 @@ input[type=range]:focus::-ms-fill-upper {
     width: 200px!important;
 }
 
-#cardArea {
-    width: 400px!important;
-    margin-left: 19px;
-}
-
 .supportCard {
     position: relative;
     z-index: -10;
