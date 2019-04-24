@@ -48,10 +48,16 @@ var msg = [
 		success: 'shuffleDeck',
 		type: 'confirm'
 	},
-    {
+	{
 		name: 'humanStarts',
 		msg: 'The human player starts the game.',
-		success: 'none',
+		success: 'passReminderInfo',
 		type: 'alert'
+	},
+    {
+		name: 'humanPasses',
+		msg: 'Has the human player passed?',
+		success: 'humanPass',
+		type: 'confirm'
 	}
 ]
