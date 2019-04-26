@@ -527,7 +527,7 @@ input[type=range]:focus::-ms-fill-upper {
     font-weight: bold;
     border: 2px solid #9b9b9b;
     background-color: #e4e4e4;
-    width: 130px;
+    width: 200px;
     margin: 0 auto;
     padding: 10px 7px;
     font-size: 29px;
@@ -786,7 +786,7 @@ input[type=range]:focus::-ms-fill-upper {
 
     #endOfGameScoring #automaPassRate {
         border: .4vw solid #9b9b9b;
-        width: 18vw;
+        width: 29vw;
         padding: 2vw 2vw;
         font-size: 4vw;
     }
@@ -1132,7 +1132,7 @@ input[type=range]:focus::-ms-fill-upper {
 
     #endOfGameScoring #automaPassRate {
         border: .4vw solid #9b9b9b;
-        width: 34vw;
+        width: 48vw;
         margin: 0 auto 8vw;
         padding: 2vw 2vw;
         font-size: 7vw;
