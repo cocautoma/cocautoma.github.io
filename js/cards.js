@@ -22,7 +22,7 @@ var cards = {
 					class: 'trade'
 				}
 			],
-			expandModules: 'AB',
+			expandModules: 'A',
 			expandTypes: ['port', 'minCosts', 'maxSettlements', 'neighborhoodBonus'],
 			expandUnit: '+1',
 			upgrade: 'merchant',
@@ -50,7 +50,7 @@ var cards = {
 					class: 'trade'
 				}
 			],
-			expandModules: 'CD',
+			expandModules: 'B',
 			expandTypes: ['port', 'minCosts', 'maxSettlements', 'neighborhoodBonus'],
 			expandUnit: '+2',
 			upgrade: 'merchant',
@@ -74,7 +74,7 @@ var cards = {
 					class: 'expansion'
 				}
 			],
-			expandModules: 'AD',
+			expandModules: 'C',
 			expandTypes: ['minCosts', 'port', 'maxSettlements', 'neighborhoodBonus'],
 			expandUnit: '+3',
 			upgrade: 'merchant',
@@ -98,7 +98,7 @@ var cards = {
 					class: 'expansion'
 				}
 			],
-			expandModules: 'BC',
+			expandModules: 'D',
 			expandTypes: ['minCosts', 'port', 'maxSettlements', 'neighborhoodBonus'],
 			expandUnit: '+4',
 			upgrade: 'merchant',
@@ -126,7 +126,7 @@ var cards = {
 					class: 'trade'
 				}
 			],
-			expandModules: 'AC',
+			expandModules: 'A',
 			expandTypes: ['port', 'minCosts', 'maxSettlements', 'neighborhoodBonus'],
 			expandUnit: '+5',
 			upgrade: 'merchant',
@@ -154,7 +154,7 @@ var cards = {
 					class: 'trade'
 				}
 			],
-			expandModules: 'BD',
+			expandModules: 'B',
 			expandTypes: ['port', 'minCosts', 'maxSettlements', 'neighborhoodBonus'],
 			expandUnit: '+6',
 			upgrade: 'merchant',
@@ -178,7 +178,7 @@ var cards = {
 					class: 'expansion'
 				}
 			],
-			expandModules: 'ABCD',
+			expandModules: 'C',
 			expandTypes: ['neighborhoodBonus', 'port', 'minCosts', 'maxSettlements'],
 			expandUnit: '+7',
 			upgrade: 'merchant',
@@ -202,7 +202,7 @@ var cards = {
 					class: 'trade'
 				}
 			],
-			expandModules: 'AB',
+			expandModules: 'D',
 			expandTypes: ['port', 'maxSettlements', 'neighborhoodBonus', 'minCosts'],
 			expandUnit: '+1',
 			upgrade: 'merchant',
@@ -226,7 +226,7 @@ var cards = {
 					class: 'trade'
 				}
 			],
-			expandModules: 'CD',
+			expandModules: 'A',
 			expandTypes: ['port', 'maxSettlements', 'neighborhoodBonus', 'minCosts'],
 			expandUnit: '+2',
 			upgrade: 'shipping',
@@ -242,7 +242,7 @@ var cards = {
 					class: 'noAction'
 				}
 			],
-			expandModules: 'AD',
+			expandModules: 'B',
 			expandTypes: ['port', 'maxSettlements', 'minCosts', 'neighborhoodBonus'],
 			expandUnit: '+3',
 			upgrade: 'shipping',
@@ -258,7 +258,7 @@ var cards = {
 					class: 'noAction'
 				}
 			],
-			expandModules: 'BC',
+			expandModules: 'C',
 			expandTypes: ['port', 'maxSettlements', 'minCosts', 'neighborhoodBonus'],
 			expandUnit: '+4',
 			upgrade: 'shipping',
@@ -274,7 +274,7 @@ var cards = {
 					class: 'noAction'
 				}
 			],
-			expandModules: 'AC',
+			expandModules: 'D',
 			expandTypes: ['port', 'maxSettlements', 'neighborhoodBonus', 'minCosts'],
 			expandUnit: '+5',
 			upgrade: 'shipping',
@@ -290,7 +290,7 @@ var cards = {
 					class: 'noAction'
 				}
 			],
-			expandModules: 'BD',
+			expandModules: 'AB',
 			expandTypes: ['port', 'maxSettlements', 'minCosts', 'neighborhoodBonus'],
 			expandUnit: '+6',
 			upgrade: 'shipping',
@@ -318,7 +318,7 @@ var cards = {
 					class: 'trade'
 				}
 			],
-			expandModules: 'ABCD',
+			expandModules: 'CD',
 			expandTypes: ['neighborhoodBonus', 'port', 'minCosts', 'maxSettlements'],
 			expandUnit: '+7',
 			upgrade: 'shipping',
@@ -490,7 +490,7 @@ var cards = {
 					class: 'trade'
 				}
 			],
-			expandModules: 'ABCD',
+			expandModules: 'AC',
 			expandTypes: ['maxSettlements', 'neighborhoodBonus', 'minCosts', 'port'],
 			expandUnit: '+7',
 			upgrade: 'merchant',
@@ -514,7 +514,7 @@ var cards = {
 					class: 'expansion'
 				}
 			],
-			expandModules: 'ABCD',
+			expandModules: 'BD',
 			expandTypes: ['maxSettlements', 'neighborhoodBonus', 'minCosts', 'port'],
 			expandUnit: '+1',
 			upgrade: 'merchant',
