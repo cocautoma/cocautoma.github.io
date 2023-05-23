@@ -389,7 +389,19 @@ var mainActionsInfo = [
                     ]
                 },
                 success: {
-                    content: '<p>The Automa attempts to trade by rolling the price and goods die using the below calculations.</p><p>If the price is in the <span class="bold">lower price bracket</span> the Automa buys and the price is always increased.</p><p>If the price is in the <span class="bold">upper price bracket</span> the Automa sells and the price is always decreased.</p><p>If the price is in the <span class="bold">medium bracket</span> the price die determines if the Automa buys or sells: A &ldquo;+&rdquo; means the Automa buys and the price increases; a &ldquo;-&rdquo; means the Automa sells and the price decreases.</p><p class="underline">Buy / sell calculation:</p><p><span class="bold">Sale:</span> (Received Price - Baseline Price) * number of units traded<br /><span class="bold">Purchase:</span> (Baseline Price - Paid Price) * number of units traded</p><p><a href="#" class="helpLink helpLink-trade">Click here </a>to read the full help section on trading.</p><p class="italic">If the Automa failed at trading any good despite having available merchants (extremely rare) <span class="bold">the Automa tries to perform the next action depicted on the action card instead.</span></p>',
+                    content: `
+                    <p>Roll the price and goods die. The Automa tries to trade a quantity up to the number determined by the die (depending on available merchants).</p>
+
+                    <p><span class="bold">1.</span> Goods price in lower bracket:<br /><span class="bold">Automa buys &amp; price increased</span>.</p>
+                    <p><span class="bold">2.</span> Goods price in upper bracket:<br /><span class="bold">Automa sells &amp; price decreased</span>.</p>
+                    <p><span class="bold">3.</span> Goods price in medium bracket:<br />If price die &ldquo;<span class="bold">+</span>&rdquo; then action <span class="bold">(1.)</span><br />f price die &ldquo;<span class="bold">-</span>&rdquo; then action <span class="bold">(2.)</span></p>
+
+                    <p>The Automa gains <span class="bold">+1&pound; per good traded</span> (<span class="underline">no matter if purchased or sold</span>)</p>
+
+                    <p><span class="bold">Reminder:</span> The Automa never trades a type of good it already has traded in the same round (except for neighbourhood bonus), and will instead reroll the goods die.</p>
+
+                    <p><a href="#" class="helpLink helpLink-trade">Click here </a>to read the full help section on trading.</p>
+                    `,
                     buttons: [
                         {
                             name: 'Next Main Action',
