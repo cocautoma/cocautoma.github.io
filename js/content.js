@@ -394,7 +394,7 @@ var mainActionsInfo = [
 
                     <p><span class="bold">1.</span> Goods price in lower bracket:<br /><span class="bold">Automa buys &amp; price increased</span>.</p>
                     <p><span class="bold">2.</span> Goods price in upper bracket:<br /><span class="bold">Automa sells &amp; price decreased</span>.</p>
-                    <p><span class="bold">3.</span> Goods price in medium bracket:<br />If price die &ldquo;<span class="bold">+</span>&rdquo; then action <span class="bold">(1.)</span><br />f price die &ldquo;<span class="bold">-</span>&rdquo; then action <span class="bold">(2.)</span></p>
+                    <p><span class="bold">3.</span> Goods price in medium bracket:<br />If price die &ldquo;<span class="bold">+</span>&rdquo; then action <span class="bold">(1.)</span><br />If price die &ldquo;<span class="bold">-</span>&rdquo; then action <span class="bold">(2.)</span></p>
 
                     <p>The Automa gains <span class="bold">+1&pound; per good traded</span> (<span class="underline">no matter if purchased or sold</span>)</p>
 
